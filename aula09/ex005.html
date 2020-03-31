@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Primeiros Passos com  Dom</title>
+    <style>
+        body{
+            background: rgb(68, 125, 199);
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos Dom</h1>
+    <p>Aqui vai o resultado!</p>
+    <p>Apendendo a usar o <strong>Dom</strong em JavaScript.></p>
+    <div class="msg">Clique em mim!</div name="msg">
+    <script>
+        var p1 = window.document.getElementsByTagName('p')[0]
+        p1.style.color = 'blue';
+
+        /*
+         var d = window.document.getElementById('msg')   
+         d.style.background = 'green'
+         d.innertext = 'Eui estou Aguardando...'
+        */
+        //var d = window.document.getElementsByName("msg") [0]
+        //d.innerText = 'Olá...S'
+        var d = window.document.querySelector('div.msg') // obs: ao usar querry selector, o uso da # é usado para ID, e para classe usa-se ".".
+        d.style.background = 'blue'
+
+    </script>
+</body>
+</html>

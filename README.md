@@ -2,6 +2,9 @@
 
 # Email: romulo514@hotmail.com
 
-Descrição: repositório criado, com intuito
+<p> Descrição: Repositório criado, com intuito
 de apresentar os primeiros passos na 
-linguagem JavaCript.
+linguagem <strong>JavaScript.</strong> </p>
+
+<p> Exemplos do curso de JavaScript
+do <a href="https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ">Curso em Vídeo</a></p> 
